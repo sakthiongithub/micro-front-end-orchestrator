@@ -3,9 +3,7 @@
 
 This is a simple application that demonstrates one approach to creating 
 [Micro frontends]
-using [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) to integrate different web apps. It was originally 
-demoed at [Oracle CodeOne 2019](https://www.oracle.com/code-one/) in San Francisco as part of the talk 
-_Micro Front Ends: Breaking Up the Front-End Monolith_ ([slides](https://virtua.tech/slides/micro-frontends)) by Sakthi Vignesh
+using [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) to integrate different web apps. 
 
 
 There are several sub-projects in this repo:
