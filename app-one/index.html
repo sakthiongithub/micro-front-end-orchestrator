@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <script type="module" src="build/app-one.js">
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<x-app-one>
+    <!-- Placeholders to improve time to first paint -->
+    <h1>App One</h1>
+    <p>Hello World from App One</p>
+
+    <!-- Check for JavaScript -->
+    <p id="jsyes"></p>
+    <script type="text/javascript">
+        document.getElementById('jsyes').innerHTML='Loading...';
+    </script>
+    <noscript>
+        Could not render the custom element. Check that JavaScript is enabled.
+    </noscript>
+</x-app-one>
+</body>
